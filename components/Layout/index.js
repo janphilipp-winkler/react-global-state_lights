@@ -10,7 +10,7 @@ const Background = styled.div`
   inset: 0;
   background-color: black;
   z-index: -1;
-  filter: ${({ $isDimmed }) => ($isDimmed ? "brightness(70%)" : "none")};
+  filter: ${({ $isDimmed }) => ($isDimmed ? "brightness(30%)" : "none")};
   transition: filter 1.2s;
 `;
 
